@@ -4,9 +4,7 @@ namespace Laravel\Octane\Swoole;
 
 class SignalDispatcher
 {
-    public function __construct(protected SwooleExtension $extension)
-    {
-    }
+    public function __construct(protected SwooleExtension $extension) {}
 
     /**
      * Determine if the given process ID can be communicated with.
