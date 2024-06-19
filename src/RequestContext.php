@@ -6,7 +6,9 @@ use ArrayAccess;
 
 class RequestContext implements ArrayAccess
 {
-    public function __construct(public array $data = []) {}
+    public function __construct(public array $data = [])
+    {
+    }
 
     #[\ReturnTypeWillChange]
     public function offsetExists($offset)
