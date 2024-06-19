@@ -10,8 +10,7 @@ class OnManagerStart
         protected SwooleExtension $extension,
         protected string $appName,
         protected bool $shouldSetProcessName = true
-    ) {
-    }
+    ) {}
 
     /**
      * Handle the "managerstart" Swoole event.
