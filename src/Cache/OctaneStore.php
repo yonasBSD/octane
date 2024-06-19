@@ -25,7 +25,9 @@ class OctaneStore implements Store
      * @param  \Swoole\Table  $table
      * @return void
      */
-    public function __construct(protected $table) {}
+    public function __construct(protected $table)
+    {
+    }
 
     /**
      * Retrieve an item from the cache by key.
