@@ -16,9 +16,7 @@ class ApplicationGateway
 {
     use DispatchesEvents;
 
-    public function __construct(protected Application $app, protected Application $sandbox)
-    {
-    }
+    public function __construct(protected Application $app, protected Application $sandbox) {}
 
     /**
      * Handle an incoming request.
