@@ -11,8 +11,7 @@ class ServerProcessInspector implements ServerProcessInspectorContract
         protected SignalDispatcher $dispatcher,
         protected ServerStateFile $serverStateFile,
         protected Exec $exec,
-    ) {
-    }
+    ) {}
 
     /**
      * Determine if the Swoole server process is running.
