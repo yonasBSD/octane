@@ -12,8 +12,7 @@ class TaskExceptionResult
         protected int $code,
         protected string $file,
         protected int $line,
-    ) {
-    }
+    ) {}
 
     /**
      * Creates a new task exception result from the given throwable.
