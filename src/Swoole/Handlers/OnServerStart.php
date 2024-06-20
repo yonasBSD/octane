@@ -17,7 +17,8 @@ class OnServerStart
         protected $timerTable,
         protected bool $shouldTick = true,
         protected bool $shouldSetProcessName = true
-    ) {}
+    ) {
+    }
 
     /**
      * Handle the "start" Swoole event.
