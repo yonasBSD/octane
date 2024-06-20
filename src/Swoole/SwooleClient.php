@@ -27,9 +27,7 @@ class SwooleClient implements Client, ServesStaticFiles
         451 => 'Unavailable For Legal Reasons',                               // RFC7725
     ];
 
-    public function __construct(protected int $chunkSize = 1048576)
-    {
-    }
+    public function __construct(protected int $chunkSize = 1048576) {}
 
     /**
      * Marshal the given request context into an Illuminate request.
