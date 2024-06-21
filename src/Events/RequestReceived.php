@@ -11,6 +11,5 @@ class RequestReceived
         public Application $app,
         public Application $sandbox,
         public Request $request
-    ) {
-    }
+    ) {}
 }
