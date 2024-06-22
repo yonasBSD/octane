@@ -14,8 +14,7 @@ class ServerProcessInspector implements ServerProcessInspectorContract
      */
     public function __construct(
         protected ServerStateFile $serverStateFile,
-    ) {
-    }
+    ) {}
 
     /**
      * Determine if the FrankenPHP server process is running.
