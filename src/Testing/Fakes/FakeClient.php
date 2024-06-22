@@ -17,7 +17,9 @@ class FakeClient implements Client
 
     public $errors = [];
 
-    public function __construct(public array $requests) {}
+    public function __construct(public array $requests)
+    {
+    }
 
     public function marshalRequest(RequestContext $context): array
     {
