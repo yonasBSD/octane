@@ -6,5 +6,7 @@ use Illuminate\Foundation\Application;
 
 class WorkerStopping
 {
-    public function __construct(public Application $app) {}
+    public function __construct(public Application $app)
+    {
+    }
 }
