@@ -17,8 +17,7 @@ class ServerProcessInspector implements ServerProcessInspectorContract
         protected ServerStateFile $serverStateFile,
         protected SymfonyProcessFactory $processFactory,
         protected PosixExtension $posix
-    ) {
-    }
+    ) {}
 
     /**
      * Determine if the RoadRunner server process is running.
