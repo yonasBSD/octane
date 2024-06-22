@@ -4,6 +4,4 @@ namespace Laravel\Octane\Exceptions;
 
 use Exception;
 
-class ServerShutdownException extends Exception
-{
-}
+class ServerShutdownException extends Exception {}
