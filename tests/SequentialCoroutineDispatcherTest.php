@@ -17,8 +17,7 @@ class SequentialCoroutineDispatcherTest extends TestCase
         ], $dispatcher->resolve([
             'first' => fn () => 1,
             'second' => fn () => 2,
-            'third' => function () {
-            },
+            'third' => function () {},
         ]));
     }
 }
