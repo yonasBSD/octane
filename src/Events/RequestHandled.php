@@ -12,5 +12,6 @@ class RequestHandled
         public Application $sandbox,
         public Request $request,
         public Response $response
-    ) {}
+    ) {
+    }
 }
