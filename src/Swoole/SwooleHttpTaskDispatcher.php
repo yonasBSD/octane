@@ -18,7 +18,8 @@ class SwooleHttpTaskDispatcher implements DispatchesTasks
         protected string $host,
         protected string $port,
         protected DispatchesTasks $fallbackDispatcher
-    ) {}
+    ) {
+    }
 
     /**
      * Concurrently resolve the given callbacks via background tasks, returning the results.
