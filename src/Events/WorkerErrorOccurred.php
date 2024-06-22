@@ -7,7 +7,5 @@ use Throwable;
 
 class WorkerErrorOccurred
 {
-    public function __construct(public Throwable $exception, public Application $sandbox)
-    {
-    }
+    public function __construct(public Throwable $exception, public Application $sandbox) {}
 }
