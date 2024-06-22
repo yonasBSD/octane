@@ -10,6 +10,5 @@ class TaskReceived
         public Application $app,
         public Application $sandbox,
         public $data
-    ) {
-    }
+    ) {}
 }
