@@ -13,8 +13,7 @@ class EnsureRequestsDontExceedMaxExecutionTime
         protected $timerTable,
         protected $maxExecutionTime,
         protected ?Server $server = null
-    ) {
-    }
+    ) {}
 
     /**
      * Invoke the action.
