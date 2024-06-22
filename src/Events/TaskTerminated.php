@@ -14,6 +14,5 @@ class TaskTerminated implements OperationTerminated
         public Application $sandbox,
         public $data,
         public $result,
-    ) {
-    }
+    ) {}
 }
