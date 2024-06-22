@@ -12,5 +12,6 @@ class TickTerminated implements OperationTerminated
     public function __construct(
         public Application $app,
         public Application $sandbox
-    ) {}
+    ) {
+    }
 }
