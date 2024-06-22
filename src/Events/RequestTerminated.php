@@ -16,5 +16,6 @@ class RequestTerminated implements OperationTerminated
         public Application $sandbox,
         public Request $request,
         public Response $response
-    ) {}
+    ) {
+    }
 }
