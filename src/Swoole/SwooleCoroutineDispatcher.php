@@ -8,7 +8,9 @@ use Swoole\Coroutine\WaitGroup;
 
 class SwooleCoroutineDispatcher implements DispatchesCoroutines
 {
-    public function __construct(protected bool $withinCoroutineContext) {}
+    public function __construct(protected bool $withinCoroutineContext)
+    {
+    }
 
     /**
      * Concurrently resolve the given callbacks via coroutines, returning the results.
