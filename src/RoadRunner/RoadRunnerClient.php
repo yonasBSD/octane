@@ -19,7 +19,9 @@ class RoadRunnerClient implements Client, StoppableClient
 {
     use MarshalsPsr7RequestsAndResponses;
 
-    public function __construct(protected PSR7Worker $client) {}
+    public function __construct(protected PSR7Worker $client)
+    {
+    }
 
     /**
      * Marshal the given request context into an Illuminate request.
