@@ -15,7 +15,8 @@ class InvokeTickCallable
         protected bool $immediate,
         protected $cache,
         protected ExceptionHandler $exceptionHandler
-    ) {}
+    ) {
+    }
 
     /**
      * Invoke the tick listener.
