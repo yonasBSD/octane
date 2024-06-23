@@ -19,8 +19,7 @@ class OnWorkerStart
         protected array $serverState,
         protected WorkerState $workerState,
         protected bool $shouldSetProcessName = true
-    ) {
-    }
+    ) {}
 
     /**
      * Handle the "workerstart" Swoole event.
