@@ -18,8 +18,7 @@ class QueuedCookieFlushingTest extends TestCase
             $app['cookie']->queue('color', 'blue');
         });
 
-        $app['router']->middleware('web')->get('/second', function (Application $app) {
-        });
+        $app['router']->middleware('web')->get('/second', function (Application $app) {});
 
         $worker->run();
 
